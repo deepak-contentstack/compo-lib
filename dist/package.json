@@ -1,0 +1,11 @@
+{
+  "name": "deepak-compo-lib",
+  "version": "1.0.0",
+  "description": "testing component library",
+  "main": "./cjs/index.js",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "private": false
+}
