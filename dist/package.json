@@ -1,10 +1,17 @@
 {
   "name": "deepak-compo-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "testing component library",
   "main": "./cjs/index.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepak-contentstack/compo-lib"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/deepak-contentstack"
+  },
   "author": "",
   "license": "ISC",
   "private": false

@@ -1,0 +1,13 @@
+{
+    "repositoryUrl": "git@github.com:deepak-contentstack/compo-lib.git",
+   "branches": ["master"],
+   "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/git", {
+        "assets": [
+            { "path": "dist/", "label": "complete build" }
+        ]
+    },
+    "@semantic-release/github"
+   ]
+}
