@@ -1,6 +1,6 @@
 {
-  "name": "deepak-compo-lib",
-  "version": "1.0.1",
+  "name": "@deepak-contentstack/deepak-compo-lib",
+  "version": "1.2.0",
   "description": "testing component library",
   "main": "./cjs/index.js",
   "module": "./index.js",

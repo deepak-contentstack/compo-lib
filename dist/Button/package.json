@@ -1,5 +1,5 @@
 {
-  "name": "deepak-compo-lib/Button",
+  "name": "@deepak-contentstack/deepak-compo-lib/Button",
   "private": true,
   "main": "../cjs/index.js",
   "module": "./index.js",
