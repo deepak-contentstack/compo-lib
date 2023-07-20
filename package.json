@@ -17,7 +17,7 @@
     "url": "https://github.com/deepak-contentstack/compo-lib"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/deepak-contentstack"
+    "registry": "https://registry.npmjs.org/deepak-contentstack"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
