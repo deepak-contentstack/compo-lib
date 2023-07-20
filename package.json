@@ -9,11 +9,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run rollup && npm run post:build",
     "rollup": "rm -rf dist && rollup -c",
-    "post:build": "node ./postbuild.js"
+    "post:build": "node ./postbuild.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/deepak-contentstack/compo-lib"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/deepak-contentstack"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
@@ -21,6 +25,7 @@
     "@rollup/plugin-replace": "^4.0.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.0.4",
+    "@semantic-release/npm": "^10.0.4",
     "@types/enzyme": "^3.10.10",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.39",
